@@ -5,8 +5,11 @@ This project simulates and predicts interview outcomes based on:
 - Panelist behavior (strictness)
 - Candidate behavioral traits
 
-## Models Used
-- XGBoost (binary and multiclass)
-- LightGBM (binary and multiclass)
+## Phases Covered
+- **Phase A**: Binary classification (Accept/Reject)
+- **Phase B**: Multiclass classification (Exit round: R1, R2, R3, Accepted)
+- **Phase C**: Advanced modeling using both panelist and candidate behavior.
 
-## Directory Structure
+## Models Used
+- **XGBoost** (Binary and Multiclass)
+- **LightGBM** (Binary and Multiclass) 
